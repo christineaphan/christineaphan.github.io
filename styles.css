@@ -11,6 +11,10 @@ body {
   line-height: 1.6;
 }
 
+i {
+  color: #3A5A40;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -23,10 +27,22 @@ body {
   background: #fff;
   max-width: 900px;
   width: 100%;
-  padding: 2rem;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.icons {
+  font-size: 1.5em;
+  align-self: flex-end;
+  display: flex;
+  gap: .5rem;
+}
+
+.icons img {
+  width: 24px;
+  height: 24px;
 }
 
 .header {
@@ -109,26 +125,15 @@ nav a:hover {
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
-  color: #555;
+  color: #3A5A40;
   font-size: 1.5rem;
 }
 
 .footer p {
     font-size: .8rem;
 
-}
-
-.icons {
-  display: flex;
-  gap: .5rem;
-}
-
-.icons img {
-  width: 24px;
-  height: 24px;
 }
 
 #currpage {
